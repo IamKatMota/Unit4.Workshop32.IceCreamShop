@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const pg = require('pg');
 const path = require('path');
-const client = new pg.Client('postgres://kat:KatMiaTy2018@localhost:5432/acme_ice_cream')
+const client = new pg.Client('postgres://kat:Kat1234@localhost:5432/acme_ice_cream')
 
 //static routes 
 app.use(express.static(path.join(__dirname, '..client/dist'))) //middleware to bring any frontend like css,javascript,react
